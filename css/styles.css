@@ -29,3 +29,26 @@ ul{
   padding: 0;
   display: flex;
 }
+
+ul li{
+  list-style: none;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 10px;
+  margin: 0 40px;
+  background: rgba(255,255,255,.2);
+  border-radius: 50%;
+  color: #6b778d;
+  transition: 1s;
+}
+
+
+ul li:hover
+{
+  background: #e31b6d;
+  box-shadow: 0 0 10px #e31b6d,
+              0 0 20px #e31b6d,
+              0 0 30px #e31b6d,
+              0 0 40px #e31b6d;
+}
