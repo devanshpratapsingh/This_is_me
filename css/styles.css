@@ -3,15 +3,87 @@ body{
 }
 
 h1{
-  color: white;
-  text-align: center;
+  color: #fad1e2;
 
+
+}
+
+h2{
+  color: white;
+}
+
+p{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+hr {
+    width: 10%;
+    height: 0;
+    border-style: dotted none none;
+    border-color: #202060;
+    border-width: 8px;
+}
+
+.head{
+  text-align: center;
 }
 
 .box1{
 position: relative;
-margin-top: 5%;
+margin-top: 50px;
+margin-bottom: 80px;
 font-family: 'Source Code Pro', monospace;
+}
+
+.content{
+  font-family: 'Raleway', sans-serif;
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-top: 70px;
+}
+
+.projects{
+  text-align: center;
+}
+
+.aboutm1{
+  color: white;
+}
+
+.myimage{
+  height: 40%;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transition: 0.5s;
+  border-radius: 50%;
+  margin-bottom: 70px;
+}
+
+.myimage:hover{
+  height: 50%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 10%;
+}
+
+.project1{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10%;
+}
+
+.laneimg{
+  width:80%;
+  border-radius: 5%;
+  margin-left: 1;
+  background: #f7bbd4;
+  box-shadow: 0 0 30px #f7bbd4;
 }
 
 .name{
@@ -20,12 +92,8 @@ font-family: 'Source Code Pro', monospace;
 }
 
 ul{
-
-  top: 50%;
-  left:50%;
-  right: 50;
-
-  margin: 70px 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
   display: flex;
 }
@@ -53,8 +121,12 @@ ul li:hover
               0 0 40px #e31b6d;
 }
 
-.socialmedia{
-  position: relative;
+
+
+.socialcenter{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
 
 .LinkedIn{
@@ -71,4 +143,21 @@ ul li:hover
 
   height: 30px;
   width: 30px;
+}
+
+.name1{
+  color: #e31b6d;
+  font-size: 15px;
+}
+.madeby{
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.copy_right {
+  color: #e31b6d;
+  font-size: 19px;
+  text-align: center;
+  padding: 20px 0;
 }
