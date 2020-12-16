@@ -52,3 +52,24 @@ ul li:hover
               0 0 30px #e31b6d,
               0 0 40px #e31b6d;
 }
+
+.socialmedia{
+  position: relative;
+}
+
+.LinkedIn{
+  height: 30px;
+  width: 30px;
+}
+
+.instagram{
+  height: 30px;
+  width: 30px;
+}
+
+.twitter{
+
+  height: 30px;
+  width: 30px;
+}
+
