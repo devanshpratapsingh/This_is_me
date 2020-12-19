@@ -111,9 +111,22 @@ font-family: 'Source Code Pro', monospace;
 }
 
 .flip-card-back {
-  background-color: #fce8f1;
-  color: #16213e;
   transform: rotateY(180deg);
+}
+
+.flip-card-back h2{
+color: black;
+font-weight: bold;
+position: relative;
+z-index: 2;
+}
+
+.flip-card-back {
+  background-image: url("https://user-images.githubusercontent.com/53232548/102402012-2f290480-400a-11eb-95ff-c2434d525d0a.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 ul{
